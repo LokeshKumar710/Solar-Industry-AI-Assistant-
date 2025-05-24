@@ -1,0 +1,17 @@
+# Python virtual environment
+solar_venv/
+venv/
+*/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+*.env
+
+# IDE and OS specific files
+.vscode/
+.idea/
+*.DS_Store
