@@ -95,7 +95,7 @@ Once the setup is complete, you can run the Streamlit application:
 
 This will typically open the application in your default web browser. If not, the terminal will display a local URL (e.g., http://localhost:8501) that you can navigate to.
 
-# Rooftop Solar Potential Analyzer ☀️🏠
+# Solar-Industry-AI-Assistant ☀️🏠
 
 This tool uses AI to analyze rooftop satellite imagery to assess solar panel installation potential and provide return on investment (ROI) estimates.
 
