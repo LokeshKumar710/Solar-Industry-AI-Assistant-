@@ -20,13 +20,9 @@ This project is an AI-powered rooftop analysis tool designed to assess solar ins
 *   **Backend:** Python
 *   **Web Interface:** Streamlit
 *   **AI Integration:** OpenRouter API
-*   **Core LLM (Vision):** `<<FILL_THIS_IN_-_e.g., liuhaotian/llava-v1.6-vicuna-13b>>`
+*   **Core LLM (Vision):** `openai/gpt-4o-mini`
 *   **Key Python Libraries:** `requests`, `Pillow`, `python-dotenv`
 
-## Live Demo
-
-🚀 You can try out the live application here: **`<<FILL_THIS_IN_-_Link_to_your_deployed_Hugging_Face_Space_or_Streamlit_Cloud_App_OR_State_Not_Available>>`**
-*(Example if not deployed: "A live deployment is not currently available. Please follow the setup instructions below to run locally.")*
 
 ## Project Setup Instructions (Setup Guide)
 
