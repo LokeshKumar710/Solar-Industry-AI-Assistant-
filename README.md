@@ -1,14 +1,43 @@
-This is the main landing page for your repository on GitHub.
-Content to include:
-Project Title: e.g., "AI-Powered Rooftop Solar Analysis Tool"
-Overview: A concise (1-2 paragraphs) description of the project's purpose and functionality.
-Features: A bulleted list of key capabilities.
-Technology Stack: List the primary tools and technologies used (e.g., Python, Streamlit, OpenRouter, specific LLM).
-Project Setup Instructions (Setup Guide):
-Prerequisites: e.g., Python 3.8+, pip.
-Cloning the Repository: The git clone command.
-Environment Setup: Instructions for creating and activating a Python virtual environment.
-Installing Dependencies: The pip install -r requirements.txt command.
-API Key Setup: Guidance on obtaining an OpenRouter API key and how to configure it for the application (e.g., using a .env file or UI input).
-Running the Application: The command to start the Streamlit app (e.g., streamlit run app.py).
-Example Usage: A brief guide on user interaction (uploading an image, entering data, interpreting results). You can link to EXAMPLE_USE_CASES.md for detailed examples.
+# AI-Powered Rooftop Solar Analysis Tool
+
+## Overview
+
+This project is an AI-powered rooftop analysis tool designed to assess solar installation potential using satellite imagery. It aims to provide homeowners and solar professionals with quick, data-driven insights, including solar potential assessments, installation recommendations, and preliminary ROI estimates. The system leverages a Vision Large Language Model (LLM) for image analysis and custom logic for solar-specific calculations.
+
+**This project was developed as part of the Solar Industry AI Assistant Internship Assessment.**
+
+## Features
+
+*   **Satellite Image Analysis:** Analyzes user-provided satellite images of rooftops.
+*   **Rooftop Characteristics Extraction:** Identifies usable roof planes, estimates area, orientation, potential shading, and obstructions using AI.
+*   **Solar Potential Assessment:** Calculates estimated solar system size (kW) and annual energy production (kWh).
+*   **Installation Recommendations:** Provides general guidance on system sizing and next steps.
+*   **ROI Estimation:** Offers a preliminary Return on Investment estimate based on system cost, assumed incentives, and user-provided electricity bill information.
+*   **User-Friendly Web Interface:** Built with Streamlit for easy interaction.
+
+## Technology Stack
+
+*   **Backend:** Python
+*   **Web Interface:** Streamlit
+*   **AI Integration:** OpenRouter API
+*   **Core LLM (Vision):** [e.g., liuhaotian/llava-v1.6-vicuna-13b or your chosen model]
+*   **Key Python Libraries:** `requests`, `Pillow`, `python-dotenv`
+
+## Live Demo
+
+🚀 You can try out the live application here: **[Link to your deployed Hugging Face Space or Streamlit Cloud App - If Applicable]**
+*(If not deployed, you can state: "A live deployment is not currently available. Please follow the setup instructions below to run locally.")*
+
+## Project Setup Instructions (Setup Guide)
+
+### Prerequisites
+
+*   Python 3.8 or higher
+*   `pip` (Python package installer)
+*   Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/[YourGitHubUsername]/[YourRepositoryName].git
+cd [YourRepositoryName]
